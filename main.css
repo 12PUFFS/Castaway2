@@ -104,16 +104,16 @@ span {
 
 .card-box1 {
   max-width: 100%;
-  height: 545px;
+  min-height: 545px;
   background: #000;
   border-radius: 30px;
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin-bottom: 60px;
 }
 
 .card-box2 {
   max-width: 100%;
-  height: 512px;
+  min-height: 512px;
   background: #000;
   border-radius: 30px;
   box-sizing: border-box;
